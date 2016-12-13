@@ -1,0 +1,82 @@
+h1 {
+	font-size: 3em;
+	letter-spacing: 0.2em;
+	font-family: "Arial";
+}
+
+html {
+	background-image: url("https://douglasleethompson.files.wordpress.com/2015/09/bebe.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+body {
+	margin-: auto;
+	text-align: center;
+	font-family: "Arial Black";
+}
+
+table {
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	height: 2.5em;
+	width: 3.5em;
+
+}
+
+p {
+	padding: 3em 3em 3em 3em;
+	font-size: 10em
+	width: 2em;
+	word-wrap: break-word;
+}
+
+button {
+	font-family: "Arial Black";
+	padding: 0.4em 1.1em 0.6em 1.1em;
+	border-style: outset;
+	background-color: white;
+	border-radius: 6em;
+}
+
+form {
+	padding: 1em 5em 1em 5em;
+
+}
+
+#encrypt {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+#decrypt {
+	display: inline-block;	
+	float: right;
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="codegenerator.css"/>
+		<script type="text/javascript" src="codegenerator.js"></script>
+		<title>Code Generator</title>
+
+		<h1>Encription Code Generator</h1>
+
+	</head>
+
+	<body>
+
+		<button id="generate" onclick="createCode()">Generate Code</button>
+		<button id="save" onclick="saveCode()">Save Code</button>
+		<button id="save" onclick="findSaved()">Find Saved Code</button>
+
+		<table id="table">
+	
+			<tr>
+				<td id="0"></td>
+				<td id="4"></td>
+				<td id="8"></td>
+				<td id="12"></td>
+				<td id="16"></td>
+				<td id="20"></td>
+				<td id="24"></td>
+			</tr>
+			<tr>
+				<td id="1"></td>
+				<td id="5"></td>
+				<td id="9"></td>
+				<td id="13"></td>
+				<td id="17"></td>
+				<td id="21"></td>
+				<td id="25"></td>
+			</tr>
+			<tr>
+				<td id="2"></td>
+				<td id="6"></td>
+				<td id="10"></td>
+				<td id="14"></td>
+				<td id="18"></td>
+				<td id="22"></td>
+			</tr>
+			<tr>
+				<td id="3"></td>
+				<td id="7"></td>
+				<td id="11"></td>
+				<td id="15"></td>
+				<td id="19"></td>
+				<td id="23"></td>
+			</tr>
+		
+		</table><br>
+
+		<div id="encrypt">
+			<form name="formEncrypt">
+				<label for="inputEncrypt">Text To Encrypt:</label>
+				<input type="text" id="inputEncrypt"/>
+			</form>
+				<button onclick="encrypt()">Encrypt</button>
+				<p id="outputEncrypt"></p>
+		</div>
+
+		<div id="decrypt">
+				<form name="formDecrypt">
+				<label for="inputDecrypt">Text To Decrypt:</label>
+				<input type="text" id="inputDecrypt"/>
+			</form>
+				<button onclick="decrypt()">Decrypt</button>
+				<p id="outputDecrypt"></p>
+		</div>
+
+    </body>
+</html>
